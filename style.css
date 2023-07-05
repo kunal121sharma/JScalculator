@@ -1,0 +1,55 @@
+*
+{
+    margin:0px;
+    padding:0px;
+    
+    
+}
+#container
+{
+max-height:560px;
+max-width:300px;
+border:2px solid black;
+margin:20px auto;
+
+}
+#input
+{
+    font-size: 1.3rem;
+    display:block;
+    margin:auto;
+    border:2px solid black
+
+
+
+}
+table{
+    height:280px;
+    width:260px;
+border: 2px solid gray;
+margin:auto;
+
+
+}
+td{
+height:10px;
+width:10px;
+border:1px solid black;
+cursor:pointer;
+transition: 100ms;
+box-shadow: 0px 2px 2px rgb(128, 128, 128);
+
+
+}
+button{
+height:100%;
+width:100%;
+transform: scaleZ(-1.5px);
+
+
+}
+td:active
+{
+    transform: scale(0.9);
+
+}
